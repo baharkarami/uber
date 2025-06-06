@@ -1,0 +1,53 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Uber Request
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Uber+Move:wght@700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Uber Move', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-black text-white p-6 max-w-md mx-auto">
+  <h1 class="text-3xl font-bold mb-2">
+   Go anywhere with Uber
+  </h1>
+  <p class="text-sm mb-6 font-normal">
+   Request a ride, hop in, and go.
+  </p>
+  <form class="space-y-3 mb-6">
+   <div class="relative">
+    <input class="w-full rounded-lg bg-gray-200 text-gray-700 placeholder-gray-500 py-3 pl-10 pr-12 focus:outline-none" placeholder="Enter location" type="text"/>
+    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-black text-lg">
+     ◉
+    </span>
+    <span class="absolute right-3 top-1/2 -translate-y-1/2 text-black text-lg">
+     ➤
+    </span>
+    <span class="absolute left-6 top-1/2 -translate-y-1/2 h-10 border-l border-gray-400">
+    </span>
+   </div>
+   <div class="relative">
+    <input class="w-full rounded-lg bg-gray-200 text-gray-700 placeholder-gray-500 py-3 pl-10 focus:outline-none" placeholder="Enter destination" type="text"/>
+    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-black text-lg">
+     ■
+    </span>
+   </div>
+   <div class="flex items-center space-x-4">
+    <button class="bg-white text-black font-semibold rounded-md px-5 py-2" type="submit">
+     See prices
+    </button>
+    <a class="text-white underline text-sm font-normal" href="#">
+     Log in to see your recent activity
+    </a>
+   </div>
+  </form>
+  <img alt="Illustration of a woman opening the door and getting into a blue car on a city street with tall buildings and people walking on the sidewalk" class="rounded-md w-full" height="400" src="https://storage.googleapis.com/a1aa/image/b6c3777f-5194-4186-1811-86b537d67d6d.jpg" width="600"/>
+ </body>
+</html>
